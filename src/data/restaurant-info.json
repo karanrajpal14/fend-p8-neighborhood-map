@@ -1,0 +1,60 @@
+{
+	"restaurants": [
+		{
+			"name": "Cool Joint",
+			"zomatoID": 53080,
+			"location": {
+				"lat": 12.9288091,
+				"lng": 77.5858992
+			}
+		},
+		{
+			"name": "Taaza Thindi",
+			"zomatoID": 58576,
+			"location": {
+				"lat": 12.9228423,
+				"lng": 77.593241
+			}
+		},
+		{
+			"name": "Rooftop Cafe",
+			"zomatoID": 60229,
+			"location": {
+				"lat": 12.9289654,
+				"lng": 77.5861852
+			}
+		},
+		{
+			"name": "Food Springs",
+			"zomatoID": 17956705,
+			"location": {
+				"lat": 12.9270219,
+				"lng": 77.585028
+			}
+		},
+		{
+			"name": "Bharmins Tiffin and Coffee",
+			"zomatoID": 60097,
+			"location": {
+				"lat": 12.9233466,
+				"lng": 77.5839026
+			}
+		},
+		{
+			"name": "Bengaluru Cafe",
+			"zomatoID": 18630678,
+			"location": {
+				"lat": 12.9392477,
+				"lng": 77.5838674
+			}
+		},
+		{
+			"name": "Karnataka Bhel House",
+			"zomatoID": 59919,
+			"location": {
+				"lat": 12.9399674,
+				"lng": 77.5819576
+			}
+		}
+	]
+}

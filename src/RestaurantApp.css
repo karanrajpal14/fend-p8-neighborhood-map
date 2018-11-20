@@ -1,0 +1,110 @@
+/* Navbar styles */
+
+.navbar-container {
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.navbar {
+  position: relative;
+  background: floralwhite;
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+}
+
+.navbar-title {
+  text-align: center;
+  margin: auto;
+}
+
+.navbar-title h1 {
+  margin: 0;
+}
+
+.navbar-title h4 {
+  margin: 0;
+}
+
+/* Hamburger button styles */
+
+.hamburger-container {
+  margin-left: .2rem;
+  cursor: pointer;
+  padding: 5px;
+  border: 0;
+  background-color: floralwhite;
+}
+
+.hamburger-bar {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+/* Sidebar styles */
+
+.sidebar {
+  position: absolute;
+  width: 250px;
+  margin-top: 75px;
+  height: calc(100% - 76px);
+  background-color: floralwhite;
+  border-top: 1px solid;
+  transform: translate(-250px);
+  z-index: 1;
+}
+
+.form-group {
+  position: relative;
+  padding-top: 1.5rem;
+}
+
+input[type=text] {
+  margin-top: 1rem;
+  width: 200px;
+  margin-left: 1rem;
+}
+
+label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: var(--font-size-small);
+  opacity: 1;
+  transform: translateY(0);
+  transition: all .2s ease-out;
+}
+
+input:placeholder-shown + label {
+  opacity: 0;
+  transform: translateY(1rem);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: midnightblue;
+  color: white;
+}
+
+/* Error screen styles */
+
+.gmaps-error-message {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
