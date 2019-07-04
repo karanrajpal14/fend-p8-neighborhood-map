@@ -1,29 +1,33 @@
 {
-	"name": "neighborhood-restaurant-app",
-	"version": "0.1.0",
-	"private": true,
-	"homepage": ".",
-	"dependencies": {
-		"google-maps-react": "^2.0.2",
-		"json-loader": "^0.5.7",
-		"react": "^16.6.3",
-		"react-dom": "^16.6.3",
-		"react-scripts": "^2.1.1"
-	},
-	"scripts": {
-		"start": "BROWSER=none react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"deploy": "surge --domain doubtful-ocean.surge.sh build/"
-	},
-	"eslintConfig": {
-		"extends": "react-app"
-	},
-	"browserslist": [
-		">0.2%",
-		"not dead",
-		"not ie <= 11",
-		"not op_mini all"
-	]
+  "name": "neighborhood-restaurant-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "google-maps-react": "^2.0.2",
+    "json-loader": "^0.5.7",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "^2.1.1",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "start": "BROWSER=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "surge --domain doubtful-ocean.surge.sh build/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "snyk": true
 }
